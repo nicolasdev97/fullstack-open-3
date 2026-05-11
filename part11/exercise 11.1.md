@@ -1,20 +1,29 @@
-In this case, I will assume that the application is developed in Python.
-In this ecosystem, there are several tools that can be used to implement
-continuous integration. For example, for static code analysis, tools
-like Flake8 or Pylint can be used to check the code without running it
-and to maintain good practices. For testing, a very common tool is
-Pytest, which allows automated tests. For the build or packaging
-process, tools such as setuptools or Poetry can be used.
+# 11.1 Warm Up
 
-Besides Jenkins and GitHub Actions, there are other options for setting
-up CI/CD. Some of them are GitLab CI, CircleCI, and Travis CI. Each one
-has its own advantages and may fit better depending on the project or
-team.
+In this exercise, I learned some basic concepts about CI/CD and the tools commonly used in software projects.
 
-Regarding whether it is better to use a cloud-based or self-hosted
-setup, I think it really depends on the situation. Cloud solutions are
-usually easier to use and set up, which is helpful if the team does not
-have much experience with infrastructure. On the other hand, a
-self-hosted environment gives more control, but also requires more work.
-To make a good decision, it would be important to know things like
-budget, team size, and security requirements.
+I chose Python as the example language. I researched different tools used in the Python ecosystem:
+
+- Static analysis:
+  - Flake8
+  - Pylint
+
+- Testing:
+  - Pytest
+
+- Build/package tools:
+  - setuptools
+  - Poetry
+
+I also learned that there are several alternatives to GitHub Actions and Jenkins, such as:
+
+- GitLab CI
+- CircleCI
+- Travis CI
+
+One important concept was the difference between cloud-based and self-hosted CI/CD environments.
+
+Cloud solutions are easier to configure and maintain, while self-hosted solutions provide more control over infrastructure and security.
+
+Main takeaway:
+CI/CD automates tasks like testing, linting, and deployment, helping teams work faster and more safely.
